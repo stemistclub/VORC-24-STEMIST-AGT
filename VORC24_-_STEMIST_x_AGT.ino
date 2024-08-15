@@ -112,6 +112,4 @@ void loop() {
     intakeRunning = !intakeRunning;
     digitalWrite(LIFTING_MOTOR_PIN, intakeRunning ? HIGH : LOW);
   }
-
-  delay(50);
 }
